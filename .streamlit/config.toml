@@ -1,0 +1,36 @@
+# Tema "señalética de Nueva York": fondo claro, texto negro, barra lateral negra como los carteles
+# del metro, amarillo taxi para lo importante y los colores de las líneas del metro para cada tipo de zona.
+[theme]
+base = "light"
+primaryColor = "#111111"
+backgroundColor = "#F5F5F2"
+secondaryBackgroundColor = "#EAEAE5"
+textColor = "#111111"
+linkColor = "#0039A6"
+borderColor = "#D6D6CF"
+font = "Public Sans:https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap"
+headingFont = "Archivo:https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&display=swap"
+baseFontSize = 16
+baseRadius = "6px"
+buttonRadius = "6px"
+showWidgetBorder = true
+metricValueFontSize = "1.9rem"
+metricValueFontWeight = 700
+# Colores de las líneas del metro: 4/5/6 verde, 7 violeta, B/D/F/M naranja, A/C/E azul, 1/2/3 rojo
+greenColor = "#00933C"
+violetColor = "#B933AD"
+orangeColor = "#FF6319"
+blueColor = "#0039A6"
+redColor = "#EE352E"
+yellowColor = "#FCCC0A"
+grayColor = "#808183"
+chartCategoricalColors = ["#111111", "#FCCC0A", "#0039A6", "#00933C", "#FF6319", "#B933AD", "#808183"]
+dataframeHeaderBackgroundColor = "#111111"
+dataframeHeaderTextColor = "#F5F5F2"
+
+[theme.sidebar]
+backgroundColor = "#111111"
+secondaryBackgroundColor = "#262626"
+textColor = "#F5F5F2"
+primaryColor = "#FCCC0A"
+borderColor = "#3A3A3A"

@@ -1,0 +1,125 @@
+{
+  "zonas_pronostico": 58,
+  "zonas_segmentadas": 90,
+  "horas_prueba": 9744,
+  "filas_entrenamiento": 23606,
+  "cuantiles": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "errores": {
+    "Igual que ayer": 21.29,
+    "Igual que hace una semana": 11.88,
+    "Modelo (mediana)": 11.62
+  },
+  "mejora_vs_semana": 0.022,
+  "cobertura": 0.808,
+  "cobertura_zona_min": 0.607,
+  "cobertura_zona_max": 0.887,
+  "por_grupo": [
+    {
+      "grupo": "Aeropuertos",
+      "zonas": 3,
+      "error_modelo": 18.227,
+      "error_semana": 20.056,
+      "viajes_por_hora": 100.996,
+      "cobertura": 0.813,
+      "error_relativo": 0.18
+    },
+    {
+      "grupo": "Barrios periféricos",
+      "zonas": 4,
+      "error_modelo": 2.419,
+      "error_semana": 3.051,
+      "viajes_por_hora": 6.69,
+      "cobertura": 0.853,
+      "error_relativo": 0.362
+    },
+    {
+      "grupo": "Manhattan central",
+      "zonas": 43,
+      "error_modelo": 12.512,
+      "error_semana": 12.661,
+      "viajes_por_hora": 78.834,
+      "cobertura": 0.801,
+      "error_relativo": 0.159
+    },
+    {
+      "grupo": "Vida nocturna",
+      "zonas": 8,
+      "error_modelo": 8.948,
+      "error_semana": 9.042,
+      "viajes_por_hora": 48.471,
+      "cobertura": 0.824,
+      "error_relativo": 0.185
+    }
+  ],
+  "por_dia": [
+    {
+      "fecha": "2024-01-25",
+      "error_modelo": 10.39,
+      "error_semana": 11.524,
+      "cobertura": 0.804
+    },
+    {
+      "fecha": "2024-01-26",
+      "error_modelo": 11.02,
+      "error_semana": 12.59,
+      "cobertura": 0.795
+    },
+    {
+      "fecha": "2024-01-27",
+      "error_modelo": 14.202,
+      "error_semana": 15.4,
+      "cobertura": 0.774
+    },
+    {
+      "fecha": "2024-01-28",
+      "error_modelo": 14.053,
+      "error_semana": 13.564,
+      "cobertura": 0.774
+    },
+    {
+      "fecha": "2024-01-29",
+      "error_modelo": 12.198,
+      "error_semana": 8.766,
+      "cobertura": 0.839
+    },
+    {
+      "fecha": "2024-01-30",
+      "error_modelo": 9.743,
+      "error_semana": 10.801,
+      "cobertura": 0.85
+    },
+    {
+      "fecha": "2024-01-31",
+      "error_modelo": 9.733,
+      "error_semana": 10.527,
+      "cobertura": 0.823
+    }
+  ],
+  "importancia": {
+    "lag_168": 31.35700035095215,
+    "lag_24": 16.773000717163086,
+    "zona": 5.039000034332275,
+    "lag_169": 4.414000034332275,
+    "lag_167": 2.8540000915527344,
+    "hora_del_dia": 2.2179999351501465,
+    "dia_semana": 2.058000087738037,
+    "media_dia_ant": 1.0290000438690186,
+    "lag_48": 0.9399999976158142,
+    "feriado": 0.29600000381469727
+  },
+  "pca_varianza": [
+    0.363,
+    0.296
+  ],
+  "k_elegido": 4
+}
