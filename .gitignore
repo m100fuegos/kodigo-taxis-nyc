@@ -1,0 +1,10 @@
+# Datos crudos:
+datos/
+
+# Secretos locales:
+.streamlit/secrets.toml
+
+# Python y Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
